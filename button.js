@@ -35,7 +35,7 @@ function mouseup(e){
 	});
 }
 
-class button {
+class imageButton {
 	constructor(image,x,y,w,h,fnct,id,inpt){
 		this.x = x;
 		this.y = y;
@@ -65,7 +65,7 @@ class button {
 	}
 }
 
-class imageButton {
+class button {
 	constructor(x,y,w,h,fnct,id,inpt){
 		this.x = x;
 		this.y = y;
